@@ -8,11 +8,14 @@ h1 {
 }
 
 .midnightblue-color {
-    color: midnightblue;
+    background-image: url(ana-background/ana\ back\ 7.jpg);
+    background-repeat: no-repeat;
+    color: darkgrey;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 140px;
 }
 
 .half-width {
@@ -21,7 +24,7 @@ section {
 }
 
 .half-width img {
-    width: 70%;
+    width: 90%;
 }
 
 .link-button {
@@ -37,4 +40,44 @@ section {
 .top-banner {
     background-image: url(ana-background/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(ana-background/ana\ back\ 7.jpg);
+    background-repeat: no-repeat;
+    color: darkgray;
+}
+
+.experience-area {
+    background-image: url(ana-background/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.blue-color {
+    background-image: url(ana-background/ana\ back\ 7.jpg);
+    background-repeat: no-repeat;
+    color: darkgrey;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px black;
+    border-left: 8px solid midnightblue;
+}
+
+#full-stack-developer {
+    border-left: 8px solid black;
+}
+
+#baby-web-developer {
+    border-left: 8px solid midnightblue;
+}
+
+footer p {
+    text-align: center;
 }
